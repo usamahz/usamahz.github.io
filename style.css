@@ -15,7 +15,7 @@ body{
 .about-left{
     background-color: #12192c;
     background-image:linear-gradient(19deg, #273c75 10%, #00a8ff 60%);
-    background-size: 1000px;
+    background-size: 5000px;
     display: flex;
     flex-direction: column;
     align-items: center;
