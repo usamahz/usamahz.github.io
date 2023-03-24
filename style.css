@@ -15,8 +15,7 @@ body {
 }
 
 .about-left {
-    background-color: #12192c;
-    background-image: linear-gradient(19deg, #273c75 10%, #00a8ff 60%);
+    background-color: #2272FF;
     background-size: 5000px;
     display: flex;
     flex-direction: column;
@@ -29,7 +28,7 @@ body {
 
 .about-left-content>div {
 
-    background: #12192c;
+    background: #1D1D10;
     padding: 4rem 4rem 2.5rem 5rem;
     text-align: center;
     border-radius: 12px 12px 0 0;
@@ -83,7 +82,7 @@ body {
 }
 
 .icons {
-    background: #12192c;
+    background: #1D1D10;
     display: flex;
     justify-content: center;
     padding: 0.8rem 0;
@@ -112,7 +111,7 @@ body {
 }
 
 .about-right {
-    background: #12192c;
+    background: #1D1D10;
     height: 100vh;
     display: flex;
     flex-direction: column;
