@@ -24,6 +24,9 @@ jobs:
         run: |
           npm install
           npm run build
+          node fetch.js && react-scripts start
+          node fetch.js && react-scripts build
+          gh-pages -b main -d build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
