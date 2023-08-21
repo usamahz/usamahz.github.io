@@ -23,7 +23,8 @@ const greeting = {
   username: "U S A M A H",
   title: "Hello, I'm Usamah",
   subTitle: emoji(
-    "A passionate robotics software engineer"
+    // ""Diving into the realm of robotics, I engineer software solutions that bring machines to life."
+    "I engineer code for cutting-edge robots, bridging imagination with functionality as a robotics software engineer 🤖 🦿"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -48,16 +49,19 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "",
+  title: "I bring these",
   subTitle: "",
   skills: [
-    // emoji(
-    //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    // ),
-    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
+    emoji(
+      "⚡ Develop path planning and motion planning algorithms ➗"
+    ),
+    emoji("⚡ Deploy computer vision into robots 🧠"),
+    emoji(
+      "⚡ Work with low-level stuff 🦖"
+    ),
+    emoji(
+      "⚡ Team player and a leader 🧑‍🤝‍🧑"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -149,7 +153,7 @@ const techStack = {
   experience: [
     {
       Stack: "C++", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Python",
@@ -169,7 +173,7 @@ const techStack = {
     },
     {
       Stack: "Research and Analytics",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
