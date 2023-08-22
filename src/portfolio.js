@@ -53,14 +53,20 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop path planning and motion planning algorithms ➗"
+      "⚡ Development of path planning and motion planning algorithms ➗"
     ),
-    emoji("⚡ Deploy computer vision into robots 🧠"),
+    emoji("⚡ Deploying computer vision into robots 🧠"),
     emoji(
-      "⚡ Work with low-level stuff 🦖"
+      "⚡ Working with low-level stuff 🦖"
+    ),
+    emoji(
+      "⚡ Highly adaptable to advancing technologies 🔮"
     ),
     emoji(
       "⚡ Team player and a leader 🧑‍🤝‍🧑"
+    ),
+    emoji(
+      "⚡ Excellent communicator, emotionally intelligent, and an orator 🎙️"
     )
   ],
 
@@ -70,7 +76,7 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Python",
-      fontAwesomeClassname: "fas fa-code"
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "C++",
@@ -98,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Rust",
-      fontAwesomeClassname: "fas fa-code"
+      fontAwesomeClassname: "fab fa-rust"
     },
     {
       skillName: "Agile",
@@ -118,7 +124,7 @@ https://fontawesome.com/icons?d=gallery */
     // },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fas fa-code"
+      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -269,61 +275,100 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Hobbies"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    emoji("Apart from my hobby turned profession, I also do these stuff on the side!🏆"),
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Weightlifting",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Deadlifts and bench presses keeps me going with discipline and a healthy lifestyle",
+      image: require("./assets/images/deadlift.jpg"),
+      imageAlt: "My Deadlift",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Fingerstyle Guitar",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "New one where I've been learning to play my favourite songs in acoustic fingerstyle. To know more about this look for Eddie van der Meer, you'll love it!",
+      image: require("./assets/images/IMG_5675.jpeg"),
+      imageAlt: "My Guitar",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Reading",
+      subtitle: "My bookshelf is about to give up with the weight of non-fiction full of wisdom",
+      image: require("./assets/images/IMG_3142.jpeg"),
+      imageAlt: "My book",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Café Hopping",
+      subtitle:
+        "I'm a teetotaller where I crawl on cafeś over pubs every weekend morning!",
+      image: require("./assets/images/IMG_7874.jpeg"),
+      imageAlt: "My Coffee and cinammon bun",
+      footerLink: [
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
+      ]
+    },
+    {
+      title: "Travelling",
+      subtitle:
+        "Soloing through far-away lands of distingushed cultures on my own is where I find myself",
+      image: require("./assets/images/C9B04ADF-B30F-4A0C-B2BB-CA70849A7603_1_105_c.jpeg"),
+      imageAlt: "Me in Hiroshima",
+      footerLink: [
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
+      ]
+    },
+    {
+      title: "Creating",
+      subtitle:
+        "Productivity over consumption is what I think, always excited to write code over watching Netflix!",
+      image: require("./assets/images/IMG_3.jpg"),
+      imageAlt: "My computer",
+      footerLink: [
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section

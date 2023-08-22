@@ -18,6 +18,7 @@
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
+    "redeploy": "^1.0.1",
     "sass": "^1.32.8"
   },
   "scripts": {
