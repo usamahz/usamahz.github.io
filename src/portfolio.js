@@ -277,7 +277,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Hobbies"),
   subtitle:
-    emoji("Apart from my hobby turned profession, I also do these stuff on the side!🏆"),
+    emoji("Apart from my hobby turned profession, I also do these stuff on the side! 🏆"),
 
   achievementsCards: [
     {
@@ -331,7 +331,7 @@ const achievementSection = {
     {
       title: "Café Hopping",
       subtitle:
-        "I'm a teetotaller where I crawl on cafeś over pubs every weekend morning!",
+        "I'm a teetotaller where I crawl on cafés over pubs every weekend morning!",
       image: require("./assets/images/IMG_7874.jpeg"),
       imageAlt: "My Coffee and cinammon bun",
       footerLink: [
@@ -344,7 +344,7 @@ const achievementSection = {
     {
       title: "Travelling",
       subtitle:
-        "Soloing through far-away lands of distingushed cultures on my own is where I find myself",
+        "Soloing through far-away lands of new cultures on my own is where I find myself",
       image: require("./assets/images/C9B04ADF-B30F-4A0C-B2BB-CA70849A7603_1_105_c.jpeg"),
       imageAlt: "Me in Hiroshima",
       footerLink: [
@@ -357,7 +357,7 @@ const achievementSection = {
     {
       title: "Creating",
       subtitle:
-        "Productivity over consumption is what I think, always excited to write code over watching Netflix!",
+        "Creation over consumption is what I think, always excited to write code over watching Netflix!",
       image: require("./assets/images/IMG_3.jpg"),
       imageAlt: "My computer",
       footerLink: [
