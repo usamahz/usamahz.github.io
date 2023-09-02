@@ -49,7 +49,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "I bring these",
+  title: "I bring these skills and values",
   subTitle: "",
   skills: [
     emoji(
@@ -66,7 +66,7 @@ const skillsSection = {
       "⚡ Team player and a leader 🧑‍🤝‍🧑"
     ),
     emoji(
-      "⚡ Excellent communicator, emotionally intelligent, and an orator 🎙️"
+      "⚡ Excellent communicator and emotionally intelligent🎙️"
     )
   ],
 

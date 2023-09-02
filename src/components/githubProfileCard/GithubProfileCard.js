@@ -14,13 +14,13 @@ export default function GithubProfileCard({prof}) {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-        <h1 className="prof-title">Contact</h1>
+        <h1 className="prof-title">Let's connect!</h1>
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-            <h2 className="bio-text">Reach me out!</h2>
+            <h2 className="bio-text"></h2>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
