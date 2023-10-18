@@ -72,7 +72,6 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "Python",
@@ -281,11 +280,53 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Boxing",
+      subtitle:
+        "Everyone has a game plan until hit in the face - Mike Tyson",
+      image: require("./assets/images/C67C66B2-7931-486B-925C-29DEF69DE7FD_1_105_c.jpeg"),
+      imageAlt: "Mo Ali",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
+      title: "Judo",
+      subtitle:
+        "Maximum efficiency minimum effort",
+      image: require("./assets/images/GettyImages-1326167382.jpg.webp"),
+      imageAlt: "Judo",
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
+    {
       title: "Weightlifting",
       subtitle:
-        "Deadlifts and bench presses keeps me going with discipline and a healthy lifestyle",
+        "Body of steel",
       image: require("./assets/images/deadlift.jpg"),
-      imageAlt: "My Deadlift",
+      imageAlt: "Body of steel",
       footerLink: [
         // {
         //   name: "Certification",
@@ -304,7 +345,7 @@ const achievementSection = {
     {
       title: "Fingerstyle Guitar",
       subtitle:
-        "New one where I've been learning to play my favourite songs in acoustic fingerstyle. To know more about this look for Eddie van der Meer, you'll love it!",
+        "Look for Eddie van der Meer",
       image: require("./assets/images/IMG_5675.jpeg"),
       imageAlt: "My Guitar",
       footerLink: [
@@ -317,7 +358,7 @@ const achievementSection = {
 
     {
       title: "Reading",
-      subtitle: "My bookshelf is about to give up with the weight of non-fiction full of wisdom",
+      subtitle: "Non-Ficton only!",
       image: require("./assets/images/IMG_3142.jpeg"),
       imageAlt: "My book",
       footerLink: [
@@ -331,7 +372,7 @@ const achievementSection = {
     {
       title: "Café Hopping",
       subtitle:
-        "I'm a teetotaller where I crawl on cafés over pubs every weekend morning!",
+        "Teetotaller. No degeneration!",
       image: require("./assets/images/IMG_7874.jpeg"),
       imageAlt: "My Coffee and cinammon bun",
       footerLink: [
@@ -344,7 +385,7 @@ const achievementSection = {
     {
       title: "Travelling",
       subtitle:
-        "Soloing through far-away lands of new cultures on my own is where I find myself",
+        "Solo rides",
       image: require("./assets/images/C9B04ADF-B30F-4A0C-B2BB-CA70849A7603_1_105_c.jpeg"),
       imageAlt: "Me in Hiroshima",
       footerLink: [
@@ -357,7 +398,7 @@ const achievementSection = {
     {
       title: "Creating",
       subtitle:
-        "Creation over consumption is what I think, always excited to write code over watching Netflix!",
+        "Creation over consumption",
       image: require("./assets/images/IMG_3.jpg"),
       imageAlt: "My computer",
       footerLink: [
