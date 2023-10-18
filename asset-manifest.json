@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34742eb2.css",
+    "main.js": "/static/js/main.26915404.js",
+    "static/css/64.5a96bd32.chunk.css": "/static/css/64.5a96bd32.chunk.css",
+    "static/js/64.81e2a2a0.chunk.js": "/static/js/64.81e2a2a0.chunk.js",
+    "static/css/769.64623ce9.chunk.css": "/static/css/769.64623ce9.chunk.css",
+    "static/js/769.e5e1cfee.chunk.js": "/static/js/769.e5e1cfee.chunk.js",
+    "static/media/IMG_5675.jpeg": "/static/media/IMG_5675.0416296532e3867ef80d.jpeg",
+    "static/media/IMG_7874.jpeg": "/static/media/IMG_7874.49434a9ff51a472ccc05.jpeg",
+    "static/media/IMG_3142.jpeg": "/static/media/IMG_3142.9a31aa389cca80e4ccbe.jpeg",
+    "static/media/C9B04ADF-B30F-4A0C-B2BB-CA70849A7603_1_105_c.jpeg": "/static/media/C9B04ADF-B30F-4A0C-B2BB-CA70849A7603_1_105_c.5377520061becd8c2b5e.jpeg",
+    "static/media/IMG_3.jpg": "/static/media/IMG_3.9fc16e752e39282c69f6.jpg",
+    "static/media/deadlift.jpg": "/static/media/deadlift.3e342c564e746647fd51.jpg",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/lei.png": "/static/media/lei.65fb50635fa02bd5bcd4.png",
+    "static/media/C67C66B2-7931-486B-925C-29DEF69DE7FD_1_105_c.jpeg": "/static/media/C67C66B2-7931-486B-925C-29DEF69DE7FD_1_105_c.27711d20b8c62d74e821.jpeg",
+    "static/media/uniLogo.png": "/static/media/uniLogo.89afcf8eefd0c67827d5.png",
+    "static/media/GettyImages-1326167382.jpg.webp": "/static/media/GettyImages-1326167382.jpg.75bbef9d383b538a1427.webp",
+    "static/media/dyson.png": "/static/media/dyson.863d84b02d1c6990bf41.png",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/RowlandBold.ttf": "/static/media/RowlandBold.f3e29b52b9de30dd0615.ttf",
+    "static/media/programmer.svg": "/static/media/programmer.becd1465cc28d37ba166c0a5ec233467.svg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "static/media/1.svg": "/static/media/1.b3dce23f71995270fb9e7a336a79a9b1.svg",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.35ee72c7ab895f9399d0.svg",
+    "main.34742eb2.css.map": "/static/css/main.34742eb2.css.map",
+    "main.26915404.js.map": "/static/js/main.26915404.js.map",
+    "64.5a96bd32.chunk.css.map": "/static/css/64.5a96bd32.chunk.css.map",
+    "64.81e2a2a0.chunk.js.map": "/static/js/64.81e2a2a0.chunk.js.map",
+    "769.64623ce9.chunk.css.map": "/static/css/769.64623ce9.chunk.css.map",
+    "769.e5e1cfee.chunk.js.map": "/static/js/769.e5e1cfee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34742eb2.css",
+    "static/js/main.26915404.js"
+  ]
+}
