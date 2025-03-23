@@ -187,14 +187,6 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
-"experience": Record<string, {
-  id: string;
-  slug: string;
-  body: string;
-  collection: "experience";
-  data: any;
-  render(): Render[".md"];
-}>;
 "projects": {
 "360-vis-nav.md": {
 	id: "360-vis-nav.md";
@@ -296,7 +288,12 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		
+		"experience": Record<string, {
+  id: string;
+  collection: "experience";
+  data: any;
+}>;
+
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
