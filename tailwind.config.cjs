@@ -8,6 +8,38 @@ module.exports = {
 	daisyui: {
 		themes: [
 			{
+				cyberpunk: {
+					"primary": "oklch(69% 0.17 162.48)",
+					"primary-content": "oklch(97% 0.021 166.113)",
+					"secondary": "oklch(60% 0.25 292.717)",
+					"secondary-content": "oklch(96% 0.016 293.756)",
+					"accent": "oklch(87% 0.01 258.338)",
+					"accent-content": "oklch(98% 0.001 106.423)",
+					"neutral": "oklch(37% 0 0)",
+					"neutral-content": "oklch(98% 0 0)",
+					"base-100": "oklch(14% 0 0)",
+					"base-200": "oklch(20% 0 0)",
+					"base-300": "oklch(26% 0 0)",
+					"base-content": "oklch(100% 0 0)",
+					"info": "oklch(71% 0.143 215.221)",
+					"info-content": "oklch(98% 0.019 200.873)",
+					"success": "oklch(72% 0.219 149.579)",
+					"success-content": "oklch(98% 0.018 155.826)",
+					"warning": "oklch(76% 0.188 70.08)",
+					"warning-content": "oklch(98% 0.022 95.277)",
+					"error": "oklch(63% 0.237 25.331)",
+					"error-content": "oklch(97% 0.013 17.38)",
+					"--radius-selector": "0.5rem",
+					"--radius-field": "0rem",
+					"--radius-box": "2rem",
+					"--size-selector": "0.25rem",
+					"--size-field": "0.25rem",
+					"--border": "1.5px",
+					"--depth": "1",
+					"--noise": "1"
+				}
+			},
+			{
 				firsttwist: {
 					"primary": "oklch(82% 0.119 306.383)",
 					"primary-content": "oklch(29% 0.149 302.717)",
@@ -136,7 +168,7 @@ module.exports = {
 				}
 			}
 		],
-		darkTheme: "dark",
+		darkTheme: "cyberpunk",
 		logs: false,
 	}
 }
