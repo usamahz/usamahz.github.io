@@ -1,15 +1,29 @@
 ---
-title: "Demo Item 2"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-custom_link_label: "Custom Btn"
-custom_link: "https://customurl.com/"
+title: "Deep Learning Framework"
+description: "A comprehensive deep learning framework supporting neural networks, convolutional networks, and recurrent architectures with GPU acceleration."
+custom_link_label: "View Documentation"
+custom_link: "https://github.com/usamahz/deep-learning-framework"
 updatedDate: "Sep 11 2022"
-pricing: "$10"
-oldPricing: "$25.5"
+pricing: "$299"
+oldPricing: "$399"
 checkoutUrl: "https://checkouturl.com/"
 heroImage: "/itemPreview.webp"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+This deep learning framework provides a flexible and efficient platform for building and training neural networks. It supports a wide range of architectures including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformer models. The framework features automatic differentiation and GPU acceleration for optimal performance.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+The framework includes comprehensive tools for:
+- Model architecture design
+- Training pipeline management
+- Hyperparameter optimization
+- Model deployment and inference
+- Performance monitoring and visualization
+
+Built with modern best practices in mind, it offers:
+- Dynamic computational graphs
+- Mixed precision training
+- Distributed training support
+- Model checkpointing and versioning
+- Integration with popular ML tools
+
+Whether you're working on computer vision, natural language processing, or reinforcement learning projects, this framework provides the tools and flexibility needed for both research and production environments.

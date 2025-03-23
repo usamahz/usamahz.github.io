@@ -1,0 +1,97 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+interface Recommendation {
+  name: string;
+  role: string;
+  company: string;
+  text: string;
+  image?: string;
+}
+
+const recommendations: Recommendation[] = [
+  {
+    name: "Martin Tosas",
+    role: "Applied Researcher",
+    company: "Sanctuary AI",
+    text: "I had the pleasure of working with Usamah on a software project that delved into <strong>deep learning</strong>, and I must say, he's an absolute gem to have on the team. Not only is he <strong>super friendly and approachable</strong>, but his <strong>eagerness to learn</strong> and <strong>pitch in wherever needed</strong> truly stood out. Usamah's <strong>enthusiasm for software and deep learning is infectious</strong>, and his <strong>willingness to lend a hand</strong> made our collaboration a breeze. Lucky to have had him onboard!"
+  },
+  {
+    name: "Jonathan Jamieson",
+    role: "Senior Robotics Engineer",
+    company: "Kingdom Technologies",
+    text: "Usamah is a <strong>bright spark</strong> around the office and in the labs. His <strong>enthuasim and technical ability are excellent</strong> and after checking his profile I can't believe he has been at dyson for less than two year. During an initative my team needed to use a codebase we were unfamiliar with. Usamah <strong>created and delivered a presentation</strong> on how to use it and proceeded to <strong>answer our questions</strong> over the next couple of months. All of which, was done <strong>extremely well</strong>, especially for someone in a Grad role! I look forward to seeing where Usamah takes his talents next. He will be an <strong>excellent asset on any team</strong>."
+  },
+  {
+    name: "Kevin Tansey",
+    role: "Professor of Remote Sensing",
+    company: "University of Leicester",
+    text: "Usamah is a <strong>great person</strong>. He really <strong>gets very quickly the coding and data processing requirements</strong> of a project to map Australian wildfires. He <strong>understand the nature of the satellite data</strong> and was able to <strong>liaise with a large multinational company</strong> to help deliver the results. I would hire Usamah again in a flash. <strong>Hard working, dedicated and a nice person all round</strong>."
+  },
+  {
+    name: "Tim Fanselow",
+    role: "Senior Autonomy Engineer",
+    company: "Brain Corp",
+    text: "Usamah joined my team duration a rotation as part of his graduate program. He worked towards adding new features in our <strong>ML-based computer vision framework</strong>, including the development of <strong>novel image augmentation techniques</strong> to generate large quantities of quality training data. He received <strong>strong positive feedback</strong> from his supervisor/mentor during this time. Further, after this supervisor left the business, Usamah demonstrated the ability to <strong>work independently</strong>, <strong>set project direction</strong>, and <strong>maintain communication with stakeholders</strong>, and in this way he continued to deliver valuable tools and features. Besides his direct responsibilities, Usamah helped the team in various ways, <strong>leveraging his experience</strong> in other parts of the company to quickly solve challenges we were facing. This came both in the form of <strong>technical contributions</strong>, but also by <strong>connecting us to the right people</strong> in other groups. He was a <strong>sociable and fun member of the team</strong>, and was <strong>very communicative and supportive</strong>. I'm sure he will be a <strong>great asset to any future team</strong> going forward!"
+  },
+  {
+    name: "Feng Xiao",
+    role: "Robotics Sensing and Perception Research Engineer",
+    company: "Dyson",
+    text: "Usamah completed a rotation in our group as a graduate software engineer, specializing in <strong>image data labeling and training pipelines</strong>. He did an <strong>excellent job</strong>, leveraging <strong>pre-trained VLM to significantly reduce data labeling costs and time</strong>. Usamah is a <strong>true team player</strong>, always <strong>willing to assist with tasks beyond his primary responsibilities</strong>, such as helping with data collection. His <strong>eagerness to learn</strong> and his <strong>enthusiasm for pursuing new ideas</strong> make him an <strong>invaluable asset to any team</strong>. I highly recommend Usamah for any role that requires a <strong>proactive and innovative software engineer with a strong collaborative spirit</strong>."
+  },
+  {
+    name: "Brian Tufnell",
+    role: "Scrum Master",
+    company: "Systems Engineering and Assessment",
+    text: "I first had the pleasure of working with Usamah at Dyson when he joined a team in the robotics division where I was the scrum master. He was on the 2-year graduate engineer programme which requires people to rotate into a different team every 6 months or so. He <strong>integrated seamlessly within each team</strong>, and <strong>quickly picked up the new knowledge and skills</strong> required for the working domain. Within my team he was responsible for maintaining the software for the <strong>planning and navigation subsystem of the robot vacuum</strong>, and for delivering new features and improvements. Subsequently I became his line manager and I was able to extend his last graduate rotation in upstream robotics, where he successfully applied himself to <strong>novel areas of research in robotic vision</strong>. He can <strong>communicate with clarity at all levels in an organisation</strong>, such as giving demonstrations of his work to the wider department and, on occasion, to the <strong>Dyson CEO</strong>. Usamah is an <strong>enthusiastic and capable software engineer</strong> who can be <strong>relied upon to deliver quality software solutions on time</strong> and would be an asset to any team."
+  },
+  {
+    name: "Mantas Navickas",
+    role: "Senior Embedded Software Developer",
+    company: "Dyson",
+    text: "I had the pleasure of working with Usamah in one of the Dyson embedded software development teams. Despite Usamah being a fresh graduate, he displayed a <strong>high degree of knowledge</strong> and an <strong>even higher capability to learn</strong>. He <strong>got up to speed with our ways of working</strong> and began contributing himself very quickly. Usamah was <strong>very competent</strong> and became a <strong>highly contributing member of the team</strong> to the degree that one could easily forget that he was a recent graduate. He also showed a <strong>great degree of interest in complex topics</strong> and did not shy away from complicated work, which showcases his <strong>character and capability of seeing things through</strong>. Beyond professional competency though, I found Usamah to be <strong>personable and easy to work with</strong>. He was a <strong>great addition to the team</strong> and I'm glad I had the chance to work with him."
+  },
+  {
+    name: "Jose Amador Demeneghi",
+    role: "Embedded Software Engineer",
+    company: "Dyson",
+    text: "I had the pleasure of working with Usamah in an agile embedded software development team. He is a <strong>brilliant engineer</strong> who certainly will <strong>bring value to any of the projects</strong> he is involved in."
+  }
+];
+---
+
+<BaseLayout sideBarActiveItemID="recommendations">
+  <div class="pb-12 mt-5">
+    <div class="text-5xl font-bold mb-8">Recommendations</div>
+    <div class="text-xl py-1">
+      What others have to say about working with me
+    </div>
+  </div>
+
+  <div class="grid gap-8">
+    {
+      recommendations.map((rec) => (
+        <div class="card bg-base-200 shadow-xl">
+          <div class="card-body">
+            <div class="flex items-center gap-4 mb-4">
+              {rec.image && (
+                <div class="avatar">
+                  <div class="w-16 rounded-full">
+                    <img src={rec.image} alt={rec.name} />
+                  </div>
+                </div>
+              )}
+              <div>
+                <h3 class="text-xl font-bold">{rec.name}</h3>
+                <p class="text-gray-600">{rec.role}</p>
+                <p class="text-gray-500">{rec.company}</p>
+              </div>
+            </div>
+            <p class="text-lg italic" set:html={rec.text}></p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</BaseLayout> 
