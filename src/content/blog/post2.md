@@ -1,16 +1,89 @@
 ---
-title: "Demo Post 2"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "Deep Learning in Computer Vision"
+description: "An exploration of deep learning techniques in computer vision, from convolutional neural networks to modern vision transformers."
 pubDate: "Sep 11 2022"
 heroImage: "/post_img.webp"
+tags: ["computer-vision", "deep-learning", "cnn"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Deep learning has transformed the field of computer vision, enabling unprecedented accuracy in various visual recognition tasks. This post explores the evolution and current state of deep learning in computer vision.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+## Evolution of Vision Models
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+The journey of deep learning in computer vision has been marked by several key developments:
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+1. **Convolutional Neural Networks (CNNs)**
+   - LeNet-5: The pioneering architecture
+   - AlexNet: Breakthrough in image classification
+   - VGG: Deep networks with repeated blocks
+   - ResNet: Overcoming vanishing gradients
+   - EfficientNet: Scaling up efficiently
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+2. **Modern Architectures**
+   - Vision Transformers (ViT)
+   - Swin Transformers
+   - ConvNeXt
+   - MLP-Mixer
+
+## Key Applications
+
+Deep learning has revolutionized various computer vision tasks:
+
+### Image Classification
+- Object recognition
+- Scene understanding
+- Fine-grained classification
+- Zero-shot learning
+
+### Object Detection
+- Single-stage detectors (YOLO, SSD)
+- Two-stage detectors (Faster R-CNN)
+- Anchor-free methods
+- Instance segmentation
+
+### Image Generation
+- GANs and their variants
+- Diffusion models
+- Style transfer
+- Image-to-image translation
+
+## Training Techniques
+
+Modern training approaches include:
+
+- Transfer learning
+- Self-supervised learning
+- Semi-supervised learning
+- Few-shot learning
+- Meta-learning
+
+## Challenges and Solutions
+
+Current challenges in computer vision include:
+
+1. **Data Efficiency**
+   - Few-shot learning
+   - Zero-shot learning
+   - Self-supervised learning
+
+2. **Robustness**
+   - Adversarial attacks
+   - Domain adaptation
+   - Out-of-distribution detection
+
+3. **Interpretability**
+   - Attention visualization
+   - Feature attribution
+   - Model explanation
+
+## Future Trends
+
+The future of computer vision looks promising with:
+
+- Multimodal learning
+- 3D vision
+- Video understanding
+- Real-time processing
+- Edge computing
+
+As deep learning continues to evolve, we can expect even more sophisticated and efficient solutions for visual understanding tasks.

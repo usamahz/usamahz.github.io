@@ -187,6 +187,88 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
+"experience": Record<string, {
+  id: string;
+  slug: string;
+  body: string;
+  collection: "experience";
+  data: any;
+  render(): Render[".md"];
+}>;
+"projects": {
+"360-vis-nav.md": {
+	id: "360-vis-nav.md";
+  slug: "360-vis-nav";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"ai4eo.md": {
+	id: "ai4eo.md";
+  slug: "ai4eo";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"air-purifiers.md": {
+	id: "air-purifiers.md";
+  slug: "air-purifiers";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"cnns-autonomous-vehicles.md": {
+	id: "cnns-autonomous-vehicles.md";
+  slug: "cnns-autonomous-vehicles";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"ml-deployment-app.md": {
+	id: "ml-deployment-app.md";
+  slug: "ml-deployment-app";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+};
+"research-projects": {
+"computer-vision.md": {
+	id: "computer-vision.md";
+  slug: "computer-vision";
+  body: string;
+  collection: "research-projects";
+  data: InferEntrySchema<"research-projects">
+} & { render(): Render[".md"] };
+"llm-training.md": {
+	id: "llm-training.md";
+  slug: "llm-training";
+  body: string;
+  collection: "research-projects";
+  data: InferEntrySchema<"research-projects">
+} & { render(): Render[".md"] };
+"ml-deployment.md": {
+	id: "ml-deployment.md";
+  slug: "ml-deployment";
+  body: string;
+  collection: "research-projects";
+  data: InferEntrySchema<"research-projects">
+} & { render(): Render[".md"] };
+"nlp-pipeline.md": {
+	id: "nlp-pipeline.md";
+  slug: "nlp-pipeline";
+  body: string;
+  collection: "research-projects";
+  data: InferEntrySchema<"research-projects">
+} & { render(): Render[".md"] };
+"rl-framework.md": {
+	id: "rl-framework.md";
+  slug: "rl-framework";
+  body: string;
+  collection: "research-projects";
+  data: InferEntrySchema<"research-projects">
+} & { render(): Render[".md"] };
+};
 "store": {
 "item1.md": {
 	id: "item1.md";

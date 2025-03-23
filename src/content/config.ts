@@ -24,13 +24,37 @@ const storeSchema = z.object({
     heroImage: z.string().optional(),
 });
 
+const projectSchema = z.object({
+    title: z.string(),
+    description: z.string(),
+    img: z.string(),
+    url: z.string(),
+    badge: z.string().optional(),
+    featured: z.boolean().optional(),
+});
+
+const researchProjectSchema = z.object({
+    title: z.string(),
+    description: z.string(),
+    img: z.string(),
+    url: z.string(),
+    badge: z.string().optional(),
+    featured: z.boolean().optional(),
+});
+
 export type BlogSchema = z.infer<typeof blogSchema>;
 export type StoreSchema = z.infer<typeof storeSchema>;
+export type ProjectSchema = z.infer<typeof projectSchema>;
+export type ResearchProjectSchema = z.infer<typeof researchProjectSchema>;
 
 const blogCollection = defineCollection({ schema: blogSchema });
 const storeCollection = defineCollection({ schema: storeSchema });
+const projectCollection = defineCollection({ schema: projectSchema });
+const researchProjectCollection = defineCollection({ schema: researchProjectSchema });
 
 export const collections = {
     'blog': blogCollection,
-    'store': storeCollection
+    'store': storeCollection,
+    'projects': projectCollection,
+    'research-projects': researchProjectCollection
 }
