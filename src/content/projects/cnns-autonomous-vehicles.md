@@ -4,5 +4,5 @@ description: "Implemented CNNs for computer vision tasks including image classif
 img: "/post_img.webp"
 url: "https://github.com/usamahz/autonomous-vehicles"
 badge: "NEW"
-featured: true
+featured: false
 --- 

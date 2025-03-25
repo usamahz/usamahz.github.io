@@ -216,6 +216,13 @@ declare module 'astro:content' {
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
+"cnn.md": {
+	id: "cnn.md";
+  slug: "cnn";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "cnns-autonomous-vehicles.md": {
 	id: "cnns-autonomous-vehicles.md";
   slug: "cnns-autonomous-vehicles";
@@ -223,9 +230,44 @@ declare module 'astro:content' {
   collection: "projects";
   data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
+"dna-analyzer.md": {
+	id: "dna-analyzer.md";
+  slug: "dna-analyzer";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"everything.md": {
+	id: "everything.md";
+  slug: "everything";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
 "ml-deployment-app.md": {
 	id: "ml-deployment-app.md";
   slug: "ml-deployment-app";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"smart-door-lock.md": {
+	id: "smart-door-lock.md";
+  slug: "smart-door-lock";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"trajectory-analyzer.md": {
+	id: "trajectory-analyzer.md";
+  slug: "trajectory-analyzer";
+  body: string;
+  collection: "projects";
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+"transformer.md": {
+	id: "transformer.md";
+  slug: "transformer";
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
