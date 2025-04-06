@@ -2,7 +2,7 @@
 title: "Reinforcement Learning Fundamentals"
 description: "A comprehensive introduction to reinforcement learning, its key concepts, and applications in modern AI systems."
 pubDate: "Sep 12 2022"
-heroImage: "/public/projects-assets/E15DF20E-76AE-4083-899F-980102C5131F.jpeg"
+heroImage: "/post6/E15DF20E-76AE-4083-899F-980102C5131F.jpeg"
 badge: "Featured"
 tags: ["reinforcement-learning", "ai", "deep-learning"]
 ---
