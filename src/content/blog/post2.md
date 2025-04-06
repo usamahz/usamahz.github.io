@@ -2,7 +2,7 @@
 title: "Deep Learning in Computer Vision"
 description: "An exploration of deep learning techniques in computer vision, from convolutional neural networks to modern vision transformers."
 pubDate: "Sep 11 2022"
-heroImage: "/post_img.webp"
+heroImage: "/public/projects-assets/37DEEB19-BA46-4DE0-B3DA-E155FC1DED56.jpeg"
 tags: ["computer-vision", "deep-learning", "cnn"]
 ---
 
