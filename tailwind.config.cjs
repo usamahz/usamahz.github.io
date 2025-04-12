@@ -17,9 +17,9 @@ module.exports = {
 					"accent-content": "oklch(98% 0.001 106.423)",
 					"neutral": "oklch(37% 0 0)",
 					"neutral-content": "oklch(98% 0 0)",
-					"base-100": "oklch(14% 0 0)",
-					"base-200": "oklch(20% 0 0)",
-					"base-300": "oklch(26% 0 0)",
+					"base-100": "oklch(45% 0.2 240)",
+					"base-200": "oklch(40% 0.2 240)",
+					"base-300": "oklch(35% 0.2 240)",
 					"base-content": "oklch(100% 0 0)",
 					"info": "oklch(71% 0.143 215.221)",
 					"info-content": "oklch(98% 0.019 200.873)",
@@ -144,11 +144,11 @@ module.exports = {
 					"accent": "oklch(72.36% 0.176 350.048)",
 					"accent-content": "oklch(14.472% 0.035 350.048)",
 					"neutral": "oklch(27.949% 0.036 260.03)",
-					"neutral-content": "oklch(100% 0 0)",
+					"neutral-content": "#FFFFFF",
 					"base-100": "oklch(20.768% 0.039 265.754)",
 					"base-200": "oklch(19.314% 0.037 265.754)",
 					"base-300": "oklch(17.86% 0.034 265.754)",
-					"base-content": "oklch(100% 0 0)",
+					"base-content": "#FFFFFF",
 					"info": "oklch(68.455% 0.148 237.251)",
 					"info-content": "oklch(0% 0 0)",
 					"success": "oklch(78.452% 0.132 181.911)",
@@ -168,7 +168,8 @@ module.exports = {
 				}
 			}
 		],
-		darkTheme: "cyberpunk",
+		themes: ["night"],
+		darkTheme: "night",
 		logs: false,
 	}
 }
